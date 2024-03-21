@@ -46,8 +46,9 @@ var APP_DATA = {
         {
           "yaw": 0.47983935090504026,
           "pitch": -0.24488264090410183,
-          "title": "<span style=\"color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: rgb(255, 255, 255);\">Museo Valdimagnino di Amagno</span><br>",
+          "title": "Museo Valdimagnino di Amagno",
           "text": "entrata"
+          // "audio": document.getElementById("audio-prova"); // prova
         }
       ]
     },
@@ -97,7 +98,7 @@ var APP_DATA = {
         {
           "yaw": -1.3964035004162216,
           "pitch": -0.2144186852938219,
-          "title": "<span style=\"color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: rgb(255, 255, 255);\">Museo Valdimagnino di Amagno</span>",
+          "title": "Museo Valdimagnino di Amagno",
           "text": "Text"
         }
       ]

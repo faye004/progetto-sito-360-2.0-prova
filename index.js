@@ -21,6 +21,8 @@
   var screenfull = window.screenfull;
   var data = window.APP_DATA;
 
+  
+
   // Grab elements from DOM.
   var panoElement = document.querySelector('#pano');
   var sceneNameElement = document.querySelector('#titleBar .sceneName');
@@ -29,6 +31,18 @@
   var sceneListToggleElement = document.querySelector('#sceneListToggle');
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
   var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
+
+  // Funzione per avviare la riproduzione dell'audio
+  function playAudio() {
+    var audio = document.getElementById("myAudio");
+    audio.play();
+  }
+
+  // Funzione per mettere in pausa l'audio
+  function pauseAudio() {
+    var audio = document.getElementById("myAudio");
+    audio.pause();
+  }
 
   // Detect desktop or mobile mode.
   if (window.matchMedia) {
